@@ -80,7 +80,7 @@ fun AppNavigation() {
 @Composable
 fun HomeScreen(navController: NavController, sharedViewModel: SharedViewModel) {
     var text by remember { mutableStateOf("") }
-    Column(modifier = Modifier.padding(16.dp)) {
+    Column(modifier = Modifier.padding(30.dp)) {
         TextField(
             value = text,
             onValueChange = { text = it },
